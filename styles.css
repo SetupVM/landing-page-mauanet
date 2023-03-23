@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.background-image {
+  background-image: url('instituto-maua-1200x700.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcase {
+  text-align: center;
+  color: #fff;
+  padding: 0 2rem;
+  max-width: 800px;
+}
+
+.showcase h2 {
+  font-size: 3rem;
+}
+
+.cta {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.cta-button {
+  background-color: #333;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #555;
+  transition: background-color 0.3s;
+}
+
+footer {
+  padding: 1px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
